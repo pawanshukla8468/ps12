@@ -1,4 +1,4 @@
-node('any') {
+pipeline {
     def myMavenContainer = docker.image('maven')
     myMavenContainer.pull()
 
