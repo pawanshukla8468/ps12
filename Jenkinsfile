@@ -1,4 +1,4 @@
-pipeline {
+agent('master') {
     def myMavenContainer = docker.image('maven')
     myMavenContainer.pull()
 
