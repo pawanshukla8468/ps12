@@ -1,4 +1,4 @@
-agent('master') {
+node{
     def myMavenContainer = docker.image('maven')
     myMavenContainer.pull()
 
